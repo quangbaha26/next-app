@@ -1,0 +1,5 @@
+@use './minxin' as *;
+.next-test {
+  @include center;
+  color: red;
+}
