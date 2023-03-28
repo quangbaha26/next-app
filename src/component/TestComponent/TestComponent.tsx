@@ -9,7 +9,7 @@ const TestComponent = (props: Props) => {
   const [dataa, setData] = useState("vvvvvvv");
   console.log({ dataSelector, count });
 
-  return <div onClick={handleSetCount(count + 1)}></div>;
+  return <div onClick={handleSetCount(count + 1)}>helllo </div>;
 };
 
 export default TestComponent;
