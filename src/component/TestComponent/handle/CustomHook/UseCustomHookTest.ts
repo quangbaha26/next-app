@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useAppSelector, useAppDispatch } from "../../../../../store";
 import { selector } from "../redux/seletor";
-import { decrement, increment } from "./../redux/test";
+import { decrement, increment } from "../redux/testSlice";
 const UseCustomHookTest = () => {
   const dataSelector = useAppSelector(selector);
   const dispatch = useAppDispatch();
