@@ -9,18 +9,7 @@ const TestComponent = (props: Props) => {
   const [dataa, setData] = useState("vvvvvvv");
   console.log({ dataSelector, count });
 
-  useEffect(() => {
-    setTimeout(() => {
-      setData("settimeoutttttttttttttttt");
-    }, 3000);
-  }, []);
-
-  return (
-    <div onClick={handleSetCount(count + 1)}>
-      TestComponent {props.data}
-      {dataa}
-    </div>
-  );
+  return <div onClick={handleSetCount(count + 1)}></div>;
 };
 
 export default TestComponent;
